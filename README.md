@@ -18,8 +18,8 @@ IP Address Tracker allow users to see their own IP Address on the map on the ini
 
 ### Screenshots
 
-<p align="center"> 
-<img src="/screenshots/Screenshot-01-mobile.jpg" alt=""/>
+<p align="center" width="100%"> 
+<img src="/screenshots/Screenshot-01-mobile.jpg" alt="" width="50%"/>
 <img src="/screenshots/Screenshot-02-desktop.PNG" alt=""/>
 </p>
 
