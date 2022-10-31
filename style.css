@@ -29,7 +29,6 @@ input {
 body {
   font-family: "Rubik", sans-serif;
   min-height: 100vh;
-  /* width: 100vw; */
   font-weight: 700;
   text-align: center;
   font-size: var(--font-size);
@@ -62,10 +61,8 @@ h1 {
 }
 
 .ip-input {
-  /* height: 3rem; */
   padding: 1rem;
   width: 100%;
-  border: 1px solid var(--desaturated-red);
   outline: inherit;
   font: inherit;
 }
@@ -94,7 +91,6 @@ h1 {
 
 .results-container {
   background-color: white;
-  border: 1px solid red;
   margin: 2rem auto 0;
   width: 90%;
   max-width: 400px;
@@ -112,10 +108,6 @@ h1 {
   z-index: 2;
 }
 
-.single-result {
-  border: 1px solid black;
-}
-
 h2 {
   font-size: calc(0.8 * var(--font-size));
   color: var(--dark-gray);
@@ -123,7 +115,7 @@ h2 {
 }
 
 #map {
-  height: 600px;
+  height: calc(100vh - 300px);
   z-index: 1;
   position: relative;
 }
@@ -132,6 +124,7 @@ h2 {
   .data-container {
     height: 200px;
   }
+
   .results-container {
     height: 100px;
     max-width: 800px;
@@ -139,5 +132,9 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     bottom: -50px;
+  }
+
+  #map {
+    height: calc(100vh - 200px);
   }
 }
