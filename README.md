@@ -25,7 +25,7 @@ IP Address Tracker allow users to see their own IP Address on the map on the ini
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/tomeklucz/FM-IP-adrress-tracker)
+- Solution URL: [GitHub repository](https://github.com/tomeklucz/IP-address-tracker)
 - Live Site URL: [Netlify](https://tomeklucz-ip-address-tracker.netlify.app/)
 
 ## My process
