@@ -70,11 +70,7 @@ h1 {
 .ip-input::placeholder {
   color: var(--dark-gray);
   font-weight: 400;
-  font-size: var(--font-size);
-}
-
-.email-input-error {
-  border: 2px solid var(--soft-red);
+  font-size: calc(0.8 * var(--font-size));
 }
 
 .submit-btn {
